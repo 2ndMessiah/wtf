@@ -1240,7 +1240,7 @@ EOF
         fi
         # exit 0
     fi
-    checkIP "${localIP}"
+    # checkIP "${localIP}"
 }
 
 # 初始化Nginx申请证书配置
