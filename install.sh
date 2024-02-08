@@ -1238,7 +1238,7 @@ EOF
                 echoContent red " ---> 错误日志：${checkPortOpenResult}，请将此错误日志通过issues提交反馈"
             fi
         fi
-        exit 0
+        # exit 0
     fi
     checkIP "${localIP}"
 }
